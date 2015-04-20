@@ -1,13 +1,21 @@
+# Ignore everything
 */
 /*
+
+# Root dotfiles
 !.gitignore
 !.bashrc
 !.bash_profile
 !.gitconfig
+!start.bat
 
-# bin folder
+# Folder: bin/
 !/bin/
 !/bin/bash/
 !/bin/python/
 !/bin/start/
-!start.bat
+
+# Relevant Apps
+Apps/*
+!Apps/
+!Apps/LIST
