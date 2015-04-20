@@ -15,7 +15,20 @@
 !/bin/python/
 !/bin/start/
 
-# Relevant Apps
+# List of Apps
 Apps/*
 !Apps/
 !Apps/LIST
+
+# List of PortableApps
+Apps/PortableApps/*
+!Apps/PortableApps/
+!Apps/PortableApps/PortableAppsList
+
+# RapidEE
+# Apps/PortableApps/RapidEE/*
+!Apps/PortableApps/RapidEE/
+!Apps/PortableApps/RapidEE/App/
+!Apps/PortableApps/RapidEE/App/AppInfo
+!Apps/PortableApps/RapidEE/App/AppInfo/Launcher
+#!Apps/PortableApps/RapidEE/rapidee.exe.lnk
