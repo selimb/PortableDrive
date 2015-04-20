@@ -1,0 +1,7 @@
+[core]
+	autocrlf = false
+[user]
+	name = Kreger51
+	email = selim.belhaouane@gmail.com
+[push]
+	default = matching

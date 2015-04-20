@@ -1,0 +1,3 @@
+#!/bin/bash
+last_dir=$(<$USR_BASH_BIN/last_dir.txt)
+cd $last_dir

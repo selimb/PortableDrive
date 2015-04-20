@@ -1,0 +1,13 @@
+*/
+/*
+!.gitignore
+!.bashrc
+!.bash_profile
+!.gitconfig
+
+# bin folder
+!/bin/
+!/bin/bash/
+!/bin/python/
+!/bin/start/
+!start.bat
