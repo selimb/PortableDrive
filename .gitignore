@@ -26,9 +26,16 @@ Apps/PortableApps/*
 !Apps/PortableApps/PortableAppsList
 
 # RapidEE
-# Apps/PortableApps/RapidEE/*
 !Apps/PortableApps/RapidEE/
-!Apps/PortableApps/RapidEE/App/
+!Apps/PortableApps/RapidEE/App
 !Apps/PortableApps/RapidEE/App/AppInfo
 !Apps/PortableApps/RapidEE/App/AppInfo/Launcher
-#!Apps/PortableApps/RapidEE/rapidee.exe.lnk
+
+# UserConfig
+!Apps/PortableApps/UserConfigPortable/
+!Apps/PortableApps/UserConfigPortable/Data
+!Apps/PortableApps/UserConfigPortable/App
+!Apps/PortableApps/UserConfigPortable/Launcher
+!Apps/PortableApps/UserConfigPortable/App/AppInfo
+!Apps/PortableApps/UserConfigPortable/App/AppInfo/Launcher
+!Apps/PortableApps/UserConfigPortable/App/UserConfig
