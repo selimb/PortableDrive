@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $PWD > $USR_BIN/drive/last_dir.txt

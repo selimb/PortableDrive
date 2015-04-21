@@ -16,6 +16,8 @@
 !/bin/bash/
 !/bin/python/
 !/bin/start/
+!/bin/drive/
+!/bin/backup/
 
 # List of Apps
 Apps/*

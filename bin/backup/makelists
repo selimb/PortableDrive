@@ -1,0 +1,21 @@
+#!/bin/bash
+
+source check_home
+
+verbose=0
+
+case "$1" in
+-v|--v|--ve|--ver|--verb|--verbo|--verbos|--verbose)
+    verbose=1
+    shift ;;
+esac
+
+echo Making lists...
+cd ~/Apps
+makelist
+echo Directory List made in "${PWD}"...
+[ $verbose -eq 1 ] && cat LIST && echo
+cd PortableApps
+makelist
+echo Directory List made in "${PWD}"...
+[ $verbose -eq 1 ] && cat LIST

@@ -1,0 +1,8 @@
+#!/bin/bash
+# Check $HOME is set to portable drive root (can't be longer than three characters?)
+homesize=${#HOME}
+if [[ $homesize -gt 3 ]]; then
+    echo HOME=$HOME - size=$homesize
+    echo Set HOME to drive root first.
+    exit 1
+fi

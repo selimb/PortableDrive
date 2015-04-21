@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# "Resuscitate" git repo
+if [[ -e .git_disabled ]]; then
+    echo Resuscitating repo...
+    mv .git_disabled .git
+fi

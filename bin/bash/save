@@ -1,2 +1,0 @@
-#!/bin/bash
-echo $PWD > $USR_BASH_BIN/last_dir.txt

@@ -1,0 +1,6 @@
+#!/bin/bash
+# Utility for makelists
+if [[ -e LIST ]]; then
+    rm LIST
+fi
+for i in $(ls -d */); do echo ${i%%/} >> LIST; done

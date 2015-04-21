@@ -14,9 +14,10 @@ This is a backup for the scripts and utilities on my portable hard drive.
 
 ## TODO
 * Document Usage
+* Document backup behavior
 * Add links (file) in features.
 * Use subtrees? Especially for UserConfigPortable.
 * Document hotkeys (AHK)
-* Might not want to leave .git in drive root (always as if you're in a git repo otherwise). Delete for now. Write script to init, commit, push, delete. 
+
 
 

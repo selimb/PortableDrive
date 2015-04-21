@@ -1,0 +1,47 @@
+#!/bin/bash
+
+function edit_gitignore {
+    sublime_text ~/.gitignore
+    read -p "Press Any key to continue..."
+}
+
+check_home
+cd ~
+
+# "Resuscitate" git repo
+if [[ -e .git_disabled ]]; then
+    echo Resuscitating repo...
+    mv .git_disabled .git
+fi
+
+satisfied=false
+while [ "$satisfied" == false ]; do
+    git add --all .
+    git status --short
+    echo "Do you wish to add anything to .gitignore?"
+    select yn in "Yes" "No"; do
+        case $yn in
+            Yes ) git reset --quiet HEAD; edit_gitignore; break;;
+            No ) satisfied=true; break;;
+        esac
+    done
+done
+
+echo "Enter a commit message:"
+read commit_message
+
+echo Commiting...
+git commit --quiet -m "$commit_message"
+
+echo Pushing...
+git push --quiet origin master
+
+# "Hide" git repo
+echo Hiding git repo...
+mv .git .git_disabled
+
+
+
+
+
+
