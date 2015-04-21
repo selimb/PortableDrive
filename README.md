@@ -13,10 +13,10 @@ This is a backup for the scripts and utilities on my portable hard drive.
 * Does not require modifying PortableApps configs by hand -- scripts are provided (see ``portable_apps_settings``). 
 
 ## TODO
-Explain Usage
-Add links (file) in features.
-Use subtrees? Especially for UserConfigPortable.
-Document hotkeys (AHK)
-Might not want to leave .git in drive root (always as if you're in a git repo otherwise). Delete for now. Write script to init, commit, push, delete. 
+* Explain Usage
+* Add links (file) in features.
+* Use subtrees? Especially for UserConfigPortable.
+* Document hotkeys (AHK)
+* Might not want to leave .git in drive root (always as if you're in a git repo otherwise). Delete for now. Write script to init, commit, push, delete. 
 
 
