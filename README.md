@@ -19,3 +19,4 @@ Use subtrees? Especially for UserConfigPortable.
 Document hotkeys (AHK)
 Might not want to leave .git in drive root (always as if you're in a git repo otherwise). Delete for now. Write script to init, commit, push, delete. 
 
+
