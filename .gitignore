@@ -23,7 +23,7 @@ Apps/*
 # List of PortableApps
 Apps/PortableApps/*
 !Apps/PortableApps/
-!Apps/PortableApps/PortableAppsList
+!Apps/PortableApps/LIST
 
 # RapidEE
 !Apps/PortableApps/RapidEE/
@@ -50,4 +50,5 @@ Apps/PortableApps/*
 !Apps/PortableApps/SublimeText3/App/UserConfig
 
 # PortableApps custom settings
+!/portable_apps_settings/
 
