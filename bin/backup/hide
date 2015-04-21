@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# "Resuscitate" git repo
+# "Hide" git repo
 check_home
-if [[ -e ~/.git_disabled ]]; then
+if [[ -e ~/.git ]]; then
     echo Resuscitating repo...
     mv ~/.git_disabled ~/.git
 fi
