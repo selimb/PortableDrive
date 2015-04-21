@@ -1,2 +1,6 @@
 #!/bin/bash
-ls > LIST
+if [[ -e LIST ]]; then
+    rm LIST
+fi
+for i in $(ls -d */); do echo ${i%%/} >> LIST; done
+# ls > LIST
