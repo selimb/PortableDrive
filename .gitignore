@@ -1,0 +1,56 @@
+# Ignore everything
+*/
+/*
+
+# Root dotfiles
+!.gitignore
+!.bashrc
+!.bash_profile
+!.gitconfig
+!start.bat
+!README.md
+!LICENSE
+
+# Folder: bin/
+!/bin/
+!/bin/bash/
+!/bin/python/
+!/bin/start/
+
+# List of Apps
+Apps/*
+!Apps/
+!Apps/LIST
+
+# List of PortableApps
+Apps/PortableApps/*
+!Apps/PortableApps/
+!Apps/PortableApps/LIST
+
+# RapidEE
+!Apps/PortableApps/RapidEE/
+!Apps/PortableApps/RapidEE/App
+!Apps/PortableApps/RapidEE/App/AppInfo
+!Apps/PortableApps/RapidEE/App/AppInfo/Launcher
+
+# UserConfig
+!Apps/PortableApps/UserConfigPortable/
+!Apps/PortableApps/UserConfigPortable/Data
+!Apps/PortableApps/UserConfigPortable/App
+!Apps/PortableApps/UserConfigPortable/Launcher
+!Apps/PortableApps/UserConfigPortable/App/AppInfo
+!Apps/PortableApps/UserConfigPortable/App/AppInfo/Launcher
+!Apps/PortableApps/UserConfigPortable/App/UserConfig
+
+# Sublime Text
+!Apps/PortableApps/SublimeText3/
+!Apps/PortableApps/SublimeText3/Data
+!Apps/PortableApps/SublimeText3/App
+!Apps/PortableApps/SublimeText3/Launcher
+!Apps/PortableApps/SublimeText3/App/AppInfo
+!Apps/PortableApps/SublimeText3/App/AppInfo/Launcher
+!Apps/PortableApps/SublimeText3/App/UserConfig
+
+# PortableApps custom settings
+!/portable_apps_settings/
+
