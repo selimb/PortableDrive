@@ -39,3 +39,15 @@ Apps/PortableApps/*
 !Apps/PortableApps/UserConfigPortable/App/AppInfo
 !Apps/PortableApps/UserConfigPortable/App/AppInfo/Launcher
 !Apps/PortableApps/UserConfigPortable/App/UserConfig
+
+# Sublime Text
+!Apps/PortableApps/SublimeText3/
+!Apps/PortableApps/SublimeText3/Data
+!Apps/PortableApps/SublimeText3/App
+!Apps/PortableApps/SublimeText3/Launcher
+!Apps/PortableApps/SublimeText3/App/AppInfo
+!Apps/PortableApps/SublimeText3/App/AppInfo/Launcher
+!Apps/PortableApps/SublimeText3/App/UserConfig
+
+# PortableApps custom settings
+
