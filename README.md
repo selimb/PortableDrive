@@ -13,7 +13,7 @@ This is a backup for the scripts and utilities on my portable hard drive.
 * Does not require modifying PortableApps configs by hand -- scripts are provided (see ``portable_apps_settings``). 
 
 ## TODO
-* Explain Usage
+* Document Usage
 * Add links (file) in features.
 * Use subtrees? Especially for UserConfigPortable.
 * Document hotkeys (AHK)
