@@ -17,6 +17,7 @@
 !/bin/python/
 !/bin/start/
 !/bin/drive/
+/bin/drive/last_dir.txt
 !/bin/backup/
 
 # List of Apps
